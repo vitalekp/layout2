@@ -23,6 +23,8 @@ h6 {
   min-height: 100vh; }
 
 .price-card {
+  position: relative;
+  overflow: hidden;
   flex-grow: 0;
   flex-shrink: 0;
   height: 770px;
@@ -31,6 +33,18 @@ h6 {
   margin-right: 18px; }
   .price-card:last-child {
     margin-right: 0; }
+  .price-card__label-special {
+    position: absolute;
+    width: 147px;
+    top: 30px;
+    right: -30px;
+    text-align: center;
+    background: #dc3f45;
+    transform: rotate(45deg); }
+  .price-card__label-special_text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px; }
   .price-card__title {
     margin-top: 33px;
     text-align: center;

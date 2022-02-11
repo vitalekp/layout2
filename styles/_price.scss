@@ -1,20 +1,38 @@
 .price {
-  background-color: $background-color;
+  background-color: $bg-color;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 .price-card {
+  position: relative;
+  overflow: hidden;
   flex-grow: 0;
   flex-shrink: 0;
   height: 770px;
   width: 380px;
-  background: $background-color-card;
+  background: $bg-color-card;
   margin-right: 18px;
 
   &:last-child {
     margin-right: 0;
+  }
+
+  &__label-special {
+    position: absolute;
+    width: 147px;
+    top: 30px;
+    right: -30px;
+    text-align: center;
+    background: $bg-color-label;
+    transform: rotate(45deg);
+  }
+
+  &__label-special_text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
   }
 
   &__title {
@@ -41,13 +59,13 @@
     text-align: center;
 
     &-green {
-      background: #5bb189;
+      background: $bg-color-green;
     }
     &-blue {
-      background: #3a6ba5;
+      background: $bg-color-blue;
     }
     &-orange {
-      background: #ec632a;
+      background: $bg-color-orange;
     }
   }
 
@@ -88,7 +106,6 @@
     border: none;
     border-radius: 20px;
     font-size: 14px;
-    // line-height: 17px;
     text-align: center;
     color: $color-white;
   }
@@ -132,11 +149,11 @@
 }
 
 .btn-green {
-  background-color: #5bb189;
+  background-color: $bg-color-green;
 }
 .btn-blue {
-  background-color: #3a6ba5;
+  background-color: $bg-color-blue;
 }
 .btn-orange {
-  background-color: #ec632a;
+  background-color: $bg-color-orange;
 }
