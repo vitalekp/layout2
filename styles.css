@@ -41,10 +41,10 @@ h6 {
     text-align: center;
     transform: rotate(45deg);
     background: #dc3f45; }
-  .price-card__label-special_text {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 25px; }
+    .price-card__label-special_text {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 25px; }
   .price-card__title {
     margin-top: 33px;
     font-weight: 700;

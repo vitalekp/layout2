@@ -18,7 +18,6 @@
   &:last-child {
     margin-right: 0;
   }
-
   &__label-special {
     position: absolute;
     width: 147px;
@@ -27,14 +26,13 @@
     text-align: center;
     transform: rotate(45deg);
     background: $bg-color-label;
-  }
 
-  &__label-special_text {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 25px;
+    &_text {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 25px;
+    }
   }
-
   &__title {
     margin-top: 33px;
     font-weight: 700;
@@ -42,14 +40,12 @@
     line-height: 43px;
     text-align: center;
   }
-
   &__subtitle {
     font-weight: 300;
     font-size: 20px;
     line-height: 25px;
     text-align: center;
   }
-
   &__price {
     height: 105px;
     margin-top: 33px;
@@ -68,7 +64,6 @@
       background: $bg-color-orange;
     }
   }
-
   &__description {
     margin-top: 40px;
     padding: 0 26px;
@@ -77,12 +72,10 @@
     line-height: 18px;
     text-align: center;
   }
-
   &__options-list {
     margin: 40px 0 0 0;
     padding: 0;
   }
-
   &__options-item {
     height: 50px;
     position: relative;
