@@ -82,37 +82,31 @@ h6 {
   .price-card__options-item {
     height: 50px;
     position: relative;
-    padding-left: 59px;
+    padding-left: 22px;
     font-weight: 300;
     font-size: 15px;
     line-height: 50px;
     list-style-type: none; }
-    .price-card__options-item_green::before {
-      content: '';
-      position: absolute;
-      width: 15px;
-      height: 13px;
-      top: 18px;
-      left: 22px;
-      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png) left no-repeat; }
-    .price-card__options-item_blue::before {
-      content: '';
-      position: absolute;
-      width: 15px;
-      height: 13px;
-      top: 18px;
-      left: 22px;
-      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png) left no-repeat; }
-    .price-card__options-item_orange::before {
-      content: '';
-      position: absolute;
-      width: 15px;
-      height: 13px;
-      top: 18px;
-      left: 22px;
-      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png) left no-repeat; }
     .price-card__options-item:nth-child(odd) {
       background: #2a3438; }
+  .price-card__icon_green {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    margin-right: 22px;
+    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png); }
+  .price-card__icon_blue {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    margin-right: 22px;
+    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png); }
+  .price-card__icon_orange {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    margin-right: 22px;
+    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png); }
   .price-card__order-btn {
     display: block;
     margin: 0 auto;
