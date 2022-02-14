@@ -1,4 +1,4 @@
-# Layout Sample Project
+# Layout "Price Table"
 ## [Site link](https://github.com/vitalekp/layout2/blob/master/index.html)
 Layout supports desktop versions
 
