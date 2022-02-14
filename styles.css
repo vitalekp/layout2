@@ -16,21 +16,21 @@ h6 {
   padding: 0; }
 
 .price {
-  background-color: #141b1c;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; }
+  min-height: 100vh;
+  background-color: #141b1c; }
 
 .price-card {
+  width: 380px;
+  height: 770px;
   position: relative;
   overflow: hidden;
   flex-grow: 0;
   flex-shrink: 0;
-  height: 770px;
-  width: 380px;
-  background: #334247;
-  margin-right: 18px; }
+  margin-right: 18px;
+  background: #334247; }
   .price-card:last-child {
     margin-right: 0; }
   .price-card__label-special {
@@ -39,23 +39,23 @@ h6 {
     top: 30px;
     right: -30px;
     text-align: center;
-    background: #dc3f45;
-    transform: rotate(45deg); }
+    transform: rotate(45deg);
+    background: #dc3f45; }
   .price-card__label-special_text {
     font-size: 14px;
     font-weight: 700;
     line-height: 25px; }
   .price-card__title {
     margin-top: 33px;
-    text-align: center;
     font-weight: 700;
     font-size: 35px;
-    line-height: 43px; }
+    line-height: 43px;
+    text-align: center; }
   .price-card__subtitle {
-    text-align: center;
     font-weight: 300;
     font-size: 20px;
-    line-height: 25px; }
+    line-height: 25px;
+    text-align: center; }
   .price-card__price {
     height: 105px;
     margin-top: 33px;
@@ -80,13 +80,37 @@ h6 {
     margin: 40px 0 0 0;
     padding: 0; }
   .price-card__options-item {
+    height: 50px;
     position: relative;
-    list-style-type: none;
+    padding-left: 59px;
     font-weight: 300;
     font-size: 15px;
     line-height: 50px;
-    height: 50px;
-    padding-left: 59px; }
+    list-style-type: none; }
+    .price-card__options-item_green::before {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 13px;
+      top: 18px;
+      left: 22px;
+      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png) left no-repeat; }
+    .price-card__options-item_blue::before {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 13px;
+      top: 18px;
+      left: 22px;
+      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png) left no-repeat; }
+    .price-card__options-item_orange::before {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 13px;
+      top: 18px;
+      left: 22px;
+      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png) left no-repeat; }
     .price-card__options-item:nth-child(odd) {
       background: #2a3438; }
   .price-card__order-btn {
@@ -100,41 +124,11 @@ h6 {
     font-size: 14px;
     text-align: center;
     color: #fff; }
-
-.checkmark-green::before {
-  content: '';
-  position: absolute;
-  width: 15px;
-  height: 13px;
-  top: 18px;
-  left: 22px;
-  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png) left no-repeat; }
-
-.checkmark-blue::before {
-  content: '';
-  position: absolute;
-  width: 15px;
-  height: 13px;
-  top: 18px;
-  left: 22px;
-  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png) left no-repeat; }
-
-.checkmark-orange::before {
-  content: '';
-  position: absolute;
-  width: 15px;
-  height: 13px;
-  top: 18px;
-  left: 22px;
-  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png) left no-repeat; }
-
-.btn-green {
-  background-color: #5bb189; }
-
-.btn-blue {
-  background-color: #3a6ba5; }
-
-.btn-orange {
-  background-color: #ec632a; }
+    .price-card__order-btn_green {
+      background-color: #5bb189; }
+    .price-card__order-btn_blue {
+      background-color: #3a6ba5; }
+    .price-card__order-btn_orange {
+      background-color: #ec632a; }
 
 /*# sourceMappingURL=styles.css.map */
