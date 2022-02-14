@@ -63,11 +63,11 @@ h6 {
     font-size: 55px;
     line-height: 105px;
     text-align: center; }
-    .price-card__price-green {
+    .price-card__price_green {
       background: #5bb189; }
-    .price-card__price-blue {
+    .price-card__price_blue {
       background: #3a6ba5; }
-    .price-card__price-orange {
+    .price-card__price_orange {
       background: #ec632a; }
   .price-card__description {
     margin-top: 40px;
