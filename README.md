@@ -1,5 +1,5 @@
 # Layout "Price Table"
-## [Site link](https://github.com/vitalekp/layout2/blob/master/index.html)
+## [Site link](https://github.com/vitalekp/layout2)
 Layout supports desktop versions
 
 ## The tech stack is:
