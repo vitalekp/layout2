@@ -86,7 +86,7 @@
     list-style-type: none;
 
     &:nth-child(odd) {
-      background: #2a3438;
+      background: $bg-color-second;
     }
   }
   &__icon_green {
