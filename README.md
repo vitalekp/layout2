@@ -1,6 +1,6 @@
 # Layout "Price Table"
 ## [Site link](https://github.com/vitalekp/layout2)
-Layout supports desktop versions
+Layout supports desktop version
 
 ## The tech stack is:
 * HTML5
